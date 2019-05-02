@@ -1,0 +1,36 @@
+LICENSE DEPENDENCY TREE
+
+[ ] ViaThinkSoft CryptoChat
+ |  License: GPLv3 ( http://www.gnu.de/documents/gpl-3.0.en.html )
+ |
+ +--- Code snippets included in source code:
+ |    * JS get_html_translation_table(): From http://phpjs.org/functions
+ |    * JS Array.prototype.remove:       By John Resig (MIT Licensed)
+ |    * JS htmlentities():               From http://phpjs.org/functions
+ |    * JS sleep():                      From http://www.phpied.com/sleep-in-javascript/
+ |    * JS scrollToBottom():             From http://www.sourcetricks.com/2010/07/javascript-scroll-to-bottom-of-page.html
+ |    * JS randomString():               From http://stackoverflow.com/a/1349426 (modified)
+ |    * JS pad():                        From http://stackoverflow.com/a/2998822
+ |    * JS HSVtoRGB():                   From http://stackoverflow.com/a/17243070
+ |    * JS luminance_perceived():        From http://stackoverflow.com/a/596243
+ |    * CSS hand pointer cursor line:    From http://www.drweb.de/magazin/browser-cursor-hand/
+ |
+ +---[ ] CryptoJS 3.1.2
+ |       Web site: http://code.google.com/p/crypto-js/
+ |       License:  MIT license ( http://opensource.org/licenses/MIT )
+ |
+ +---[ ] SAJAX 0.13
+ |       Web site: http://www.modernmethod.com/sajax/
+ |       License:  "open source BSD license"
+ |
+ +---[ ] CRC32 for JavaScript
+ |       Web site: https://github.com/wbond/crc32-js-php
+ |       License:  MIT license ( http://opensource.org/licenses/MIT )
+ |
+ +---[ ] JSONWrapper
+      |  Web site: http://www.boutell.com/scripts/jsonwrapper.html
+      |  License:  Public Domain
+      |
+      +---[ ] Services_JSON PEAR library
+              Web site: http://pear.php.net/package/Services_JSON
+              License:  BSD 2-Clause License ( http://opensource.org/licenses/bsd-license.php )

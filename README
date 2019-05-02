@@ -1,0 +1,11 @@
+This is an AJAX crypto chat which encrypts and decrypts using JavaScript on client side.
+The chat log is saved encrypted on the server.
+
+Note about security:
+- Please ensure that you are using HTTPS, otherwise the JavaScript could be manipulated using MITM.
+
+What is encrypted?
+- Messages which are shown ORANGE are encrypted. White messages are not encrypted.
+- Usernames and time stamps are not encrypted.
+- Chat room names are not encrypted.
+

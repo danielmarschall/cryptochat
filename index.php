@@ -2,7 +2,7 @@
 
 // ViaThinkSoft CryptoChat
 // (C) 2014-2018 by Daniel Marschall, ViaThinkSoft
-// Licensed under the terms of GPLv3
+// Licensed under the terms of the Apache2 license
 
 // -----------------------------------------------------------------------------------------------
 

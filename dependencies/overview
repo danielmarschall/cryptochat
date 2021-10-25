@@ -1,7 +1,7 @@
 LICENSE DEPENDENCY TREE
 
 [ ] ViaThinkSoft CryptoChat
- |  License: GPLv3 ( http://www.gnu.de/documents/gpl-3.0.en.html )
+ |  License: Apache 2.0 ( https://www.apache.org/licenses/LICENSE-2.0 )
  |
  +--- Code snippets included in source code:
  |    * JS get_html_translation_table(): From http://phpjs.org/functions

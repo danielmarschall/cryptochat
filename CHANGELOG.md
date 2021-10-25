@@ -1,3 +1,5 @@
+# Changelog
+
 0.25 Beta (2018-04-18)
 - Fixed small PHP warning
 - Black background is now darkblue

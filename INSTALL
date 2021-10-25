@@ -1,9 +1,0 @@
-How to install CryptoChat
-
-1. Copy config/config.original.inc.php
-     to config/config.inc.php
-
-   and edit it.
-
-2. You are ready
-

@@ -221,6 +221,7 @@ function count_users($room) {
 	$room_file = chatroom_file($room);
 	$cont = file_get_contents($room_file);
 	preg_match_all('@\(user:(.*)\)@ismU', $cont, $m);
+	$users_lookup = array();
 	foreach ($m[1] as &$us) {
 		$users_lookup[$us] = true;
 	}
@@ -285,7 +286,7 @@ function refresh($room, $fromline, $username, $unique_id) {
 
 // $sajax_debug_mode = true;
 $sajax_failure_redirect = 'http://web.archive.org/web/20090915191608/http://sajax.info/sajaxfail.html';
-sajax_export(
+sajax_export( /** @phpstan-ignore-line */ // PHPstan thinks that sajax_export() only accepts 0 parameters?!
 	array('name' => 'add_line', 'method' => 'POST'),
 	array('name' => 'refresh',  'method' => 'GET')   // TODO: post?
 );

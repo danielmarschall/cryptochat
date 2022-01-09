@@ -1,0 +1,19 @@
+parameters:
+	level: 5
+	fileExtensions:
+		- php
+		- phps
+	paths:
+		- .
+	excludePaths:
+		analyse:
+			- dependencies/
+		analyseAndScan:
+			- .phpstan.tmp
+	tmpDir: .phpstan.tmp
+	bootstrapFiles:
+		- config/config.original.inc.php
+	ignoreErrors:
+		- '#is always (true|false)\.#'
+		#- '#Call to function assert\(\) with false will always evaluate to false\.#'
+		#- '#with no typehint specified\.#'

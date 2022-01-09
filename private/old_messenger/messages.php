@@ -24,7 +24,7 @@ $s = count($expl)-$s-1;
 if ($s < 0) $s = 0;
 
 for ($i=$s; $i<count($expl)-1; $i++) {
-	echo "[".str_pad($i+1, 4, '0', STR_PAD_LEFT)."] ".$expl[$i];
+	echo "[".str_pad((string)($i+1), 4, '0', STR_PAD_LEFT)."] ".$expl[$i];
 }
 
 ?>

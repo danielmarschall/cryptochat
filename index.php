@@ -62,6 +62,13 @@ require __DIR__ . '/config/config.inc.php';
 define('PRODUCT_NAME', 'CryptoChat');
 define('MCC_VER',      trim(file_get_contents(__DIR__ . '/VERSION')));
 
+if (!function_exists('get_magic_quotes_gpc')) {
+	// Required by sajax.php
+	function get_magic_quotes_gpc() {
+		return false;
+	}
+}
+
 require __DIR__ . '/' . DEP_DIR_SAJAX       . '/php/sajax.php';
 require __DIR__ . '/' . DEP_DIR_JSONWRAPPER . '/jsonwrapper.php'; // TODO: make optional. only required if running with PHP 5.1
 

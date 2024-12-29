@@ -1,5 +1,8 @@
 # Changelog
 
+0.26 Beta (2023-12-29)
+- Fixed PHP incompatibility in dependency "JSON Wrapper"
+
 0.25 Beta (2018-04-18)
 - Fixed small PHP warning
 - Black background is now darkblue
